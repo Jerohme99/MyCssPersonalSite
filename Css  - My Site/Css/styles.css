@@ -1,0 +1,103 @@
+hr{
+    
+    border: dotted;
+    border-bottom: none;
+    width: 10%;
+    color: whitesmoke;
+    border-width: 10px;
+}
+body{
+    font-size: 1em ;
+    margin: 0;
+    background-color: rgba(200, 233, 233, 0.933);
+    text-align: center;
+}
+
+/** Font Styles  **/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;;
+}
+h1{
+    color: #66bfbf ;
+    font-weight: normal;
+    font-size: 2em ;
+}
+
+p{
+    color: #11999e ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+
+/******class selectors******/
+.top-cloud{
+    position: relative;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.bot-cloud{
+    position: absolute;
+    left: 200px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chillies-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.clearp{
+    clear:right;
+}
+
+.prof-img{
+    padding-top: 40px;
+}
+ .btn {
+        background: #a3bfd1;
+        background-image: -webkit-linear-gradient(top, #a3bfd1, #085f96);
+        background-image: -moz-linear-gradient(top, #a3bfd1, #085f96);
+        background-image: -ms-linear-gradient(top, #a3bfd1, #085f96);
+        background-image: -o-linear-gradient(top, #a3bfd1, #085f96);
+        background-image: linear-gradient(to bottom, #a3bfd1, #085f96);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        text-shadow: 0px 0px 0px #666666;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #a981e6;
+        background-image: -webkit-linear-gradient(top, #a981e6, #4136e0);
+        background-image: -moz-linear-gradient(top, #a981e6, #4136e0);
+        background-image: -ms-linear-gradient(top, #a981e6, #4136e0);
+        background-image: -o-linear-gradient(top, #a981e6, #4136e0);
+        background-image: linear-gradient(to bottom, #a981e6, #4136e0);
+        text-decoration: none;
+      }
+.bottom-container{
+    background-color: #11999e;
+    margin-top: 40px;
+
+}
+/********id selectors*******/
+#intro{
+    display: block;
+    margin: 50px auto 0 auto;
+}
